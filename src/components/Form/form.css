@@ -1,0 +1,86 @@
+.formWrapper{
+    padding: 2rem 26rem;
+    margin-bottom: 1rem;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formInput{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.formInputBar{
+    width: 40%;
+    text-align: center;
+    /* border: none; */
+    border-color: blueviolet;
+    border-radius: 0.4rem;
+    height: 5vh;
+    color: black;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+}
+
+.formInputBar:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.formButton{
+    width: 50%;
+    text-align: center; 
+    border-radius: 0.4rem;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    cursor: pointer;
+    height: 5vh;
+    color: white;
+    text-overflow: ellipsis;
+    font-size: 1.5rem;
+}
+
+.formButton:hover{
+    background-color: rgb(162, 108, 212);
+    color: white;
+}
+
+@media(max-width:880px){
+    .formWrapper{
+        padding: 2rem 20rem;
+    }
+}
+@media(max-width:768px){
+    .formWrapper{
+        padding: 2rem 20rem;
+    }
+}
+@media(max-width:668px){
+    .formWrapper{
+        padding: 2rem 20rem;
+    }
+}
+@media(max-width:568px){
+    .formWrapper{
+        padding: 2rem 15rem;
+    }
+}
+@media(max-width:468px){
+    .formWrapper{
+        padding: 2rem 15rem;
+    }
+}
+@media(max-width:368px){
+    .formWrapper{
+        padding: 2rem 15rem;
+    }
+}

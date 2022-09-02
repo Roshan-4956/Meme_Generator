@@ -1,0 +1,25 @@
+.header{
+    height: 18vh;
+    width: 100vw;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+}
+
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+}
+
+.headerImg{
+    width: 8rem;
+    height: 8rem;
+    margin-right: 2rem;
+    object-fit: contain;
+}
+
+.headerTitle{
+    font-size: 5rem;
+}
